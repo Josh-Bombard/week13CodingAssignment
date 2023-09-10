@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+/* --------------------------------------------------------------------------------
+my CSS below here */
+
+/* get navbar content to the very right of the top of the screen and get it organized, change background color, font-size and padding to make it work */
+.navbar {
+  font-size: 24px;
+  padding: 25px;
+  background-color: rgb(202, 175, 229);
+  width: 100vw;
+  justify-content: right;
+}
+
+/*change the css of the anchor elements to change the text color, have the cursor be a pointer when hovering over, and align the text to the center of the nav element*/
+a {
+  padding-left: 25px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+
+/*change the color of the links when they get hovered over*/
+a:hover {
+  color: rgba(0, 0, 0, .705)
+}
+
+/*change the css of the card to make it so the header is the only one thats seperated by borders*/
+#info-here {
+ border: none;
+}
+
+#button {
+  border-top: none;
+}
+
+/*Get the login-form to be able to line up in the center of the screen*/
+#login-form {
+  margin-left: 75px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+
+}
+
+/*get the container to look bigger and more proper using font-size and font-family*/
+.container {
+  font-family: arial;
+  font-size: 24px;
+}
+
